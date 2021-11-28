@@ -1,9 +1,231 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><script type="text/javascript" src="https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js"></script><script type="text/javascript">// Be silent to avoid complaining about non-tailwind classes
-// https://github.com/tw-in-js/twind/discussions/180#discussioncomment-678272
-console.log("ema: Twind: setup & observe")
-twind.setup({mode: 'silent'})
-window.emaTwindObs = twindObserve.observe(document.documentElement);</script><base href="https://srid.github.io/ema-template/"><title>Ema – next-gen Haskell static site generator</title><meta name="description" content="Ema static site generator (Jamstack) in Haskell"><link href="static/logo.svg" rel="icon" /><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#DB2777"></head><body class="overflow-y-scroll"><div class="container mx-auto xl:max-w-screen-lg"><div class="px-2 grid grid-cols-12"><div class="hidden md:mr-4 md:block md:col-span-3 "><div class="mt-2 h-full flex pl-2 space-x-2 items-end"><a href=""><img class="z-50 transition transform hover:scale-125 hover:opacity-80 h-20" src="static/logo.svg"></a></div></div><div class="col-span-12 md:col-span-9"><div class="flex justify-center items-center"><h1 class="text-6xl mt-2 mb-2 text-center pb-2">Ema Template</h1></div></div></div><div class="px-2 grid grid-cols-12"><div class="hidden md:mr-4 md:block md:col-span-3 md:sticky md:top-0 md:h-screen overflow-x-auto"><div class="bg-yellow-50 rounded pt-1 pb-2"><div class="pl-2"><div class="my-2 "><a class=" hover:text-black  " href="dir2">dir2</a></div><div class="pl-2"><div class="my-2 text-gray-600"><a class=" hover:text-black  " href="dir2/bar">Bar Note</a></div><div class="pl-2"></div></div><div class="my-2 "><a class=" hover:text-black  " href="dir1">dir1</a></div><div class="pl-2"><div class="my-2 text-gray-600"><a class=" hover:text-black  " href="dir1/foo">Foo Note</a></div><div class="pl-2"></div></div></div></div></div><div class="col-span-12 md:col-span-9"><p class="my-2">Hi, welcome to the <strong>Ema Template</strong> website. This is site generated from <a class="text-yellow-600 hover:underline" href="http://github.com/srid/ema-template" title="" target="_blank" rel="noopener">ema-template repo</a> which uses the <a class="text-yellow-600 hover:underline" href="https://ema.srid.ca/" title="" target="_blank" rel="noopener">Ema</a> Haskell static site generator.</p><p class="my-2">You might want to visit the <a class="text-yellow-600 font-bold hover:bg-pink-50" href="dir1/foo" title="">Foo</a> or the <a class="text-yellow-600 font-bold hover:bg-pink-50" href="dir2/bar" title="">Bar</a> note.</p><footer class="flex justify-center items-center space-x-4 my-8 text-center text-gray-500"><a href="https://github.com/srid/ema-template/edit/master/content/index.md" title="Edit this page on GitHub"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-  <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z" />
-  <path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd" />
-</svg></a><div>Powered by <a class="font-bold" href="https://github.com/srid/ema">Ema</a></div></footer></div></div></div></body></html>
+<!DOCTYPE HTML><html><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title></title><meta charset="utf-8"><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><meta content name="author"><meta content name="description"><meta content name="keywords"><link href="/static/tufte-css/tufte.min.css" rel="stylesheet"><link href="/static/tufte-css/latex.css" rel="stylesheet"></head><body><article><section><p>Welcome! Here you’ll find all the course information for “People vs. Algorithms: Data Ethics in the 21st Century,” a course taught in the Department of Statistics, at Columbia University, in Spring 2021.</p>
+<h2 id="course-details">Course Details</h2>
+<ul>
+<li>STAT 1XXX: “People vs. Algorithms: Data Ethics in the 21st Century”</li>
+<li>Spring 2021</li>
+<li>Classroom: TBA</li>
+<li>Instructors: Isabelle Zaugg, Jonathan Reeve</li>
+<li>Email address: iz2153@columbia.edu; jonathan.reeve@columbia.edu</li>
+<li>Course website and course readings: https://data-ethics.jonreeve.com</li>
+<li>Course repository: https://github.com/JonathanReeve/course-data-ethics</li>
+</ul>
+<p><a href="#getting-started">Get Started!</a></p>
+<h2 id="description">Description</h2>
+<p>This course introduces students to the field of data ethics through an exploration of the societal impacts of data-driven technologies. This interdisciplinary course bridges the philosophy of ethics, humanities and social science scholarship, and computational thinking and practice. The course includes hands-on, guided lab activities where students will wrestle with intellectually-challenging ethical questions first-hand. The course is designed for students from every discipline and will support the development of introductory computational skill sets for beginners.</p>
+<h2 id="objectives">Objectives</h2>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>This course presumes no prior knowledge of programming, computer science, or quantitative disciplines. Those with programming experience, however, won’t find this boring: the level of specialization is such that only the first few weeks cover the basics.</p>
+<h3 id="course-communication">Course Communication</h3>
+<p>Please direct all questions to Ed Discussions, our course’s question-and-answer platform.</p>
+<h3 id="labs">Labs</h3>
+<h2 id="getting-started">Getting Started</h2>
+<ol>
+<li>Sign up for a user account on <a href="https://hypothes.is">hypothes.is</a>, our annotation platform.</li>
+<li>Download and install <em><a href="https://www.anaconda.com/products/individual">Anaconda</a></em>, a Python distribution, which contains a lot of useful data science packages.</li>
+</ol>
+<h2 id="extra-resources">Extra Resources</h2>
+<h3 id="programming-resources">Programming Resources</h3>
+<p>If you want some extra help, or want to read a little more about some of the things we’re doing, there are plenty of resources out there. If you want a second opinion about a question, or have questions that we can’t answer in the chatroom, a good website for getting help with programming is <a href="https://stackoverflow.com">StackOverflow</a>. Also, the Internet is full of Python learning resources. One of my favorites is <a href="https://codecademy.com">CodeCademy</a>, which has a game-like interactive interface, badges, and more. There’s also the fantastic interactive textbook <a href="https://runestone.academy/runestone/books/published/thinkcspy/index.html">How to Think Like a Computer Scientist</a>, which is the textbook for <em>Computing in Context,</em> the introduction to Python at Columbia’s Computer Science department.</p>
+<p>A colleague and I have also put together a few guides for beginning programming:</p>
+<ul>
+<li><a href="https://github.com/JonathanReeve/course-computational-literary-analysis/blob/master/Resources/errors.md">Common Error Messages and How to Fix Them</a></li>
+<li><a href="https://github.com/JonathanReeve/course-computational-literary-analysis/blob/master/Resources/frequently_used_terms.md">A glossary of frequently used Python terminology</a></li>
+</ul>
+<h2 id="requirements">Requirements</h2>
+<p>Coursework falls into three categories:</p>
+<ul>
+<li>Weekly readings and annotations (30% of final grade)</li>
+<li>Lab assignments (10 total) (30% of final grade)</li>
+<li>Final project (30% of final grade)</li>
+<li>Attendance and participation (10% of final grade)</li>
+</ul>
+<h3 id="readings-and-annotations">Readings and Annotations</h3>
+<p>For each reading assignment, please write <strong>2-3 annotations to our editions of the text</strong>, using <a href="http://hypothes.is">hypothes.is</a>.</p>
+<p>Links are provided below. You’ll have to sign up for a hypothes.is account first. <strong>Please use your real name as your username</strong>, so I know who you are. You may write about anything you want, but it will help your final project to think about ethical problems. Good annotations are:</p>
+<ul>
+<li>Concise (think: a long tweet)</li>
+<li>Well-written (although not too formal)</li>
+<li>Observant (rather than evaluative)</li>
+</ul>
+<p>You may respond to another student’s annotation for one or two of your annotations, if you want. Just make your responses equally as thoughtful.</p>
+<h3 id="homework">Homework</h3>
+<h3 id="final-project">Final Project</h3>
+<p>During the final week of class, we’ll have final project presentations. Your paper isn’t required to be complete by then, but you’ll be expected to speak about your project for 4 minutes. Consider it a conference presentation.</p>
+<p>Final papers will be evaluated according to the:</p>
+<ul>
+<li>Quality of the literary critical argument presented</li>
+<li>Quality of the close readings of the text or corpus</li>
+<li>Quality of the Python text analysis</li>
+<li>Literary interpretation of the results</li>
+<li>Integration of the computational analysis with the literary argument</li>
+</ul>
+<p>As with homework, please submit these on CourseWorks, or email them to me if you don’t have access to CourseWorks. You may optionally submit your final project to the course git repository, making it public, for a 5% bonus.</p>
+<h1 id="schedule">Schedule</h1>
+<p>Note: this schedule is subject to some change, so please check the course website for the most up-to-date version.</p>
+<h2 id="week-1---all-the-data-on-all-the-people-introduction-to-the-scope-of-data-collection">Week 1 - All the data on all the people: Introduction to the scope of data collection</h2>
+<p>Required readings:</p>
+<ul>
+<li><a href="/static/papers/sloane2019inequality.pdf"><span class="citation" data-cites="sloane2019inequality">Sloane, Mona. 2019. <span>“Inequality Is the Name of the Game: Thoughts on the Emerging Field of Technology, Ethics and Social Justice.”</span> In <em>Weizenbaum Conference</em>, 9. DEU.</span></a></li>
+<li><span class="citation" data-cites="sweeney_all">Sweeney, Latanya. n.d. <span>“All the <span>Data</span> on <span>All</span> the <span>People</span>.”</span> In <em>The <span>Sweet</span> <span>Spot</span>: <span>Harmonizing</span> <span>Technology</span> and <span>Society</span></em>, 45. Accessed November 23, 2021.</span></li>
+<li><a href="https://thedatamap.org"><span class="citation" data-cites="sweeney_data_1997">Sweeney, Latanya. 1997. <span>“The <span>Data</span> <span>Map</span>.”</span> <em>The Data Map</em>.</span></a></li>
+<li><span class="citation" data-cites="cohen_these">Cohen, Jason. 2021. <span>“These <span>Apps</span> <span>Collect</span> the <span>Most</span> <span>Personal</span> <span>Data</span>.”</span> <em>PCMAG</em>.</span></li>
+</ul>
+<p>Optional readings (required for graduate students):</p>
+<ul>
+<li><a href="/static/papers/boyd2012.pdf"><span class="citation" data-cites="boyd2012">boyd, danah, and Kate Crawford. 2012. <span>“CRITICAL QUESTIONS FOR BIG DATA.”</span> <em>Information, Communication &amp; Society</em> 15 (5): 662–79.</span></a></li>
+</ul>
+<p>Looking at Cookies (see Cookie Analysis below)</p>
+<h3 id="assignment-1-cookie-analysis">Assignment 1: Cookie Analysis</h3>
+<ol>
+<li>In preparation: read about <a href="https://www.privacypolicies.com/blog/eu-cookie-law/">EU cookie laws</a>, and why they exist.</li>
+<li>In a text editor, open the cookie files saved by your web browser. Find a tracking cookie, a marketing cookie, and a simple login cookie. What do the contents of each look like?</li>
+<li>In 500 words or less, write about what you notice. Should websites be able to know what other websites you visit? Explore at least one reason why they should, and one reason why they shouldn’t.</li>
+</ol>
+<h2 id="week-2---universalizing-our-ethical-frameworks-and-the-issue-of-consent">Week 2 - Universalizing our ethical frameworks and the issue of consent</h2>
+<p>Required readings:</p>
+<ul>
+<li><a href="http://ai.ethicsworkshop.org/"><span class="citation" data-cites="ai_ethics"><span>“<span>AI</span> <span>Ethics</span> <span>Site</span>.”</span> n.d. <em>AI Ethics Workshop</em>. Accessed November 25, 2021.</span></a></li>
+<li><a href="static/papers/mhlambi2020rationality.pdf"><span class="citation" data-cites="mhlambi2020rationality">Mhlambi, Sabelo. 2020. <span>“From Rationality to Relationality: Ubuntu as an Ethical and Human Rights Framework for Artificial Intelligence Governance.”</span> <em>Carr Center for Human Rights Policy Discussion Paper Series</em> 9.</span></a></li>
+<li><a href="https://www.imaginephd.com"><span class="citation" data-cites="imaginePhD"><span>“Value Assessment.”</span> n.d. <em>ImaginePhD</em>. Accessed November 25, 2021.</span></a></li>
+<li><a href="https://www.vox.com/future-perfect/2019/4/4/18295933/google-cancels-ai-ethics-board"><span class="citation" data-cites="piper_exclusive:_2019">Piper, Kelsey. 2019. <span>“Exclusive: <span>Google</span> Cancels <span>AI</span> Ethics Board in Response to Outcry.”</span> <em>Vox</em>.</span></a></li>
+</ul>
+<p>Optional readings (required for graduate students):</p>
+<ul>
+<li><a href="static/papers/franzke2021.pdf"><span class="citation" data-cites="franzke2021">Franzke, Aline Shakti, Iris Muis, and Mirko Tobias Schäfer. 2021. <span>“Data Ethics Decision Aid (DEDA): A Dialogical Framework for Ethical Inquiry of AI and Data Projects in the Netherlands.”</span> <em>Ethics and Information Technology</em>, January.</span></a></li>
+<li><a href="https://www.newyorker.com/magazine/2013/05/27/change-the-world"><span class="citation" data-cites="packer_change_2013">Packer, George. 2013. <span>“Change the <span>World</span>.”</span> <em>The New Yorker</em>.</span></a></li>
+<li><a href="static/papers/montgomery_youth_2015.pdf"><span class="citation" data-cites="montgomery_youth_2015">Montgomery, Kathryn C. 2015. <span>“Youth and Surveillance in the <span>Facebook</span> Era.”</span> <em>Telecommunications Policy</em> 39 (9): 771–86.</span></a></li>
+<li><a href="static/papers/matecki2010update.pdf"><span class="citation" data-cites="matecki2010update">Matecki, Lauren A. 2010. <span>“Update: COPPA Is Ineffective Legislation-Next Steps for Protecting Youth Privacy Rights in the Social Networking Era.”</span> <em>Northwestern Journal of Law and Social Policy</em> 5: 369.</span></a></li>
+</ul>
+<h3 id="assignment">Assignment:</h3>
+<ol>
+<li>Use a tool to rank your ethical values.<br />
+</li>
+<li>Write a reflection on your ethical framework and how you see it reflected (or not) within data-driven digital systems. You might choose one platform, service, or tool and discuss any disconnects between your ethical framework and your experience of this artifact.</li>
+</ol>
+<h2 id="week-3---race-racism">Week 3 - Race, racism</h2>
+<p>Required readings:</p>
+<ul>
+<li><span class="citation" data-cites="benjamin2019race">Benjamin, R. 2019. <span>“Introduction: The New Jim Code.”</span> In <em>Race After Technology: Abolitionist Tools for the New Jim Code</em>. Wiley.</span></li>
+<li><span class="citation" data-cites="noble2018algorithms">Noble, S. U. 2018. <span>“A Society, Searching.”</span> In <em>Algorithms of Oppression: How Search Engines Reinforce Racism</em>. NYU Press.</span></li>
+<li><span class="citation" data-cites="raji__2021">Raji, Deb. 2021. <span>“<span>These</span> Are the Four Most Popular Misconceptions People Have about Race &amp; Gender Bias in Algorithms.”</span> <em>Twitter</em>.</span></li>
+</ul>
+<p>Optional readings (required for graduate students):</p>
+<ul>
+<li><span class="citation" data-cites="bowker2000sorting">Bowker, Geoffrey C, and Susan Leigh Star. 2000. <span>“The Case of Race Classification and Reclassification Under Apartheid.”</span> In <em>Sorting Things Out: Classification and Its Consequences</em>. MIT press.</span></li>
+<li><span class="citation" data-cites="race_data_science"><span>“Race + <span>Data</span> <span>Science</span> <span>Lecture</span> <span>Series</span> - <span>The</span> <span>Data</span> <span>Science</span> <span>Institute</span> at <span>Columbia</span> <span>University</span>.”</span> n.d. Accessed November 25, 2021.</span></li>
+<li><span class="citation" data-cites="browne_surveillance"><span>“Surveillance and <span>Race</span> <span>Online</span> <span></span> <span>Simone</span> <span>Browne</span> at <span>MozFest</span>.”</span> n.d. Accessed November 25, 2021.</span></li>
+<li><span class="citation" data-cites="mcilwain_technology">McIlwain, Charlton. n.d. <span>“Of Course Technology Perpetuates Racism. <span>It</span> Was Designed That Way.”</span> <em>MIT Technology Review</em>. Accessed November 25, 2021.</span></li>
+</ul>
+<h3 id="possible-assignment-jigsaw-of-the-dsi-race-data-science-lecture-series">Possible assignment: Jigsaw of the DSI Race + Data Science Lecture Series</h3>
+<h2 id="week-4-algorithmic-and-data-driven-tools-in-the-criminal-justice-system">Week 4: Algorithmic and data-driven tools in the criminal justice system</h2>
+<p>Required readings:</p>
+<ul>
+<li><span class="citation" data-cites="hiphi_s3_2019"><span>“S3, <span>Episode</span> 1: <span>The</span> <span>Precrime</span> <span>Unit</span> (<span>Jan</span>. 31st, 2019).”</span> 2019. <em>Hi-Phi Nation</em>.</span></li>
+<li><span class="citation" data-cites="hao_2019">Hao, Karen, and Jonathan Stray. 2019. <span>“Can You Make <span>AI</span> Fairer Than a Judge? <span>Play</span> Our Courtroom Algorithm Game.”</span> <em>MIT Technology Review</em>.</span></li>
+</ul>
+<p>Optional readings (required for graduate students):</p>
+<ul>
+<li><span class="citation" data-cites="jorgensen_2021">Jorgensen, Renée. 2021. <span>“Algorithms and the Individual in Criminal Law.”</span> <em>Canadian Journal of Philosophy</em>, October, 1–17.</span></li>
+<li><a href="https://via.hypothes.is/static/brayne2020.pdf"><span class="citation" data-cites="brayne2020">Brayne, Sarah, and Angèle Christin. 2020. <span>“Technologies of Crime Prediction: The Reception of Algorithms in Policing and Criminal Courts.”</span> <em>Social Problems</em> 68 (3): 608–24.</span></a></li>
+</ul>
+<h2 id="week-5-language-diversity-and-justice">Week 5: Language Diversity and Justice</h2>
+<p>Required readings:</p>
+<ul>
+<li><span class="citation" data-cites="zaugg2021">Zaugg, Isabelle. 2021. <span>“Language Justice in the Digital Sphere.”</span> In <em>Lifeworld of Languages</em>, edited by Liu L. H. and A. Rao. Columbia University Press.</span></li>
+<li><span class="citation" data-cites="coffey_maori">Coffey, Donavyn. n.d. <span>“Māori Are Trying to Save Their Language from <span>Big</span> <span>Tech</span>.”</span> <em>Wired UK</em>. Accessed November 25, 2021.</span></li>
+</ul>
+<h3 id="assignment-language-use-data-analysis">Assignment: Language Use Data Analysis</h3>
+<ol>
+<li>Download an hour or two of tweets from Twitter.</li>
+<li>Quantify the languages used, as declared / inferred by Twitter.</li>
+<li>How do these compare with language use worldwide? What languages are over/under represented?</li>
+<li>Choose one non-European language, and find several tweets in the language. What do you notice about them? You might look at the Indigenous Tweets project to find these.</li>
+<li>hat features do you notice with a non-national language, such as Basque?</li>
+<li>Do certain languages correlate with operating systems or platforms used to post the tweets?</li>
+</ol>
+<h2 id="week-6-nlp-and-computational-language-understanding">Week 6: NLP and Computational Language Understanding</h2>
+<p>Required readings:</p>
+<ul>
+<li><span class="citation" data-cites="bender2021dangers">Bender, Emily M et al. 2021. <span>“On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?🦜.”</span> In <em>Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</em>, 610–23.</span></li>
+</ul>
+<p>Exploring AI Abusive Language detector inputs Exploring word embedding problems</p>
+<h3 id="assignment-1">Assignment</h3>
+<ol>
+<li>Using TensorFlow Projector, find a neighborhood of words with one or two unexpected entries.</li>
+<li>In 500 words, discuss: where morphological ambiguity (homographs) shows itself most clearly. How would this become a problem for NLP programs that use these embeddings?</li>
+</ol>
+<h2 id="week-7---problems-in-geography-and-census-data">Week 7 - Problems in Geography and Census Data</h2>
+<p>Required readings:</p>
+<ul>
+<li><span class="citation" data-cites="ochigame2021">Ochigame, Rodrigo, and Katherine Ye. 2021. <span>“Search Atlas: Visualizing Divergent Search Results Across Geopolitical Borders.”</span> <em>Designing Interactive Systems Conference 2021</em>, June.</span></li>
+</ul>
+<p>Optional readings (required for graduate students):</p>
+<ul>
+<li><span class="citation" data-cites="shahmirzadi_mapping_2018">Shahmirzadi, Atefeh Akbari. 2018. <span>“Mapping, <span>Naming</span>, and <span>Language</span> <span>Justice</span> in the <span>Digital</span> <span>Sphere</span>.”</span> <em>Explorations in Global Language Justice</em>.</span></li>
+<li><span class="citation" data-cites="deluca_selling_2015">DeLuca, Krystina. 2015. <span>“Selling or <span>Spying</span>: <span>The</span> <span>Legal</span> <span>Implications</span> of <span>Target</span> <span>Marketing</span> <span>Through</span> <span>Geolocation</span> <span>Technologies</span>.”</span> <em>Law School Student Scholarship</em>, January.</span></li>
+</ul>
+<h3 id="assignment-geographic-data-analysis">Assignment: Geographic Data Analysis</h3>
+<ol>
+<li>Download data from the [1890 UK] census, and load it into a Pandas DataFrame.</li>
+<li>What do you notice about the geographic descriptors used?</li>
+</ol>
+<h2 id="week-8---mobile-computing">Week 8 - Mobile Computing</h2>
+<p>Required readings:</p>
+<ul>
+<li><span class="citation" data-cites="taylor2015">Taylor, Linnet. 2015. <span>“No Place to Hide? The Ethics and Analytics of Tracking Mobility Using Mobile Phone Data.”</span> <em>Environment and Planning D: Society and Space</em> 34 (2): 319–36.</span></li>
+</ul>
+<p>Optional readings (required for graduate students):</p>
+<ul>
+<li><span class="citation" data-cites="rooksby2016">Rooksby, John et al. 2016. <span>“Implementing Ethics for a Mobile App Deployment.”</span> <em>Proceedings of the 28th Australian Conference on Computer-Human Interaction - OzCHI ’16</em>.</span></li>
+</ul>
+<h3 id="assignment-3-mobile-data-analysis">Assignment 3: Mobile Data Analysis</h3>
+<ol>
+<li>Choose a Google service from Google Takeout, and download the associated data, using either your university (GSuite) account, or another.</li>
+<li>Load the data into a Pandas DataFrame object, and list its columns.</li>
+<li>In 500 words, write about what you notice. What columns or categories, if any, do you find surprising? What purpose do you think these categories serve, within the context of the application?</li>
+<li>Pretend you are a data analyst working at Google. What can you infer about yourself, based on this data alone?</li>
+</ol>
+<h2 id="week-9---web-search">Week 9 - Web search</h2>
+<p>Required readings:</p>
+<ul>
+<li><span class="citation" data-cites="ochigame2021">Ochigame, Rodrigo, and Katherine Ye. 2021. <span>“Search Atlas: Visualizing Divergent Search Results Across Geopolitical Borders.”</span> <em>Designing Interactive Systems Conference 2021</em>, June.</span></li>
+</ul>
+<p>Using Duck Duck Go to search as if you are located in different locations Tool designed to provide Google Search results from multiple locations in the world (if accessible) Yahoo search engine data from the 1990s</p>
+<h3 id="assignment-web-search-data-analysis">Assignment: Web Search Data Analysis</h3>
+<ol>
+<li>In preparation: read [an article critiquing this data set].</li>
+<li>Download a sample from the [Yahoo anonymized web search data set].</li>
+<li>Choose a single user’s search history. It should be someone with at least 50 searches.</li>
+<li>What can you tell about that person based on their search history alone?</li>
+</ol>
+<h2 id="week-10---health-and-data">Week 10 - Health and data</h2>
+<p>Required readings:</p>
+<ul>
+<li><span class="citation" data-cites="wpf"><span>“<span>WPF</span> <span>Report</span> — <span>The</span> <span>Scoring</span> of <span>America</span>: <span>How</span> <span>Secret</span> <span>Consumer</span> <span>Scores</span> <span>Threaten</span> <span>Your</span> <span>Privacy</span> and <span>Your</span> <span>Future</span> <span></span> <span>World</span> <span>Privacy</span> <span>Forum</span>.”</span> n.d. Accessed November 25, 2021.</span></li>
+<li><span class="citation" data-cites="szalavitz_drug_2021">Szalavitz, Maia. 2021. <span>“A <span>Drug</span> <span>Addiction</span> <span>Risk</span> <span>Algorithm</span> and <span>Its</span> <span>Grim</span> <span>Toll</span> on <span>Chronic</span> <span>Pain</span> <span>Sufferers</span>.”</span> <em>Wired</em>, August.</span></li>
+</ul>
+<p>Optional readings (required for graduate students):</p>
+<ul>
+<li><span class="citation" data-cites="sweeney_matching_2013">Sweeney, Latanya. 2013. <span>“Matching <span>Known</span> <span>Patients</span> to <span>Health</span> <span>Records</span> in <span>Washington</span> <span>State</span> <span>Data</span>.”</span> <em>arXiv:1307.1370 [Cs]</em>, July.</span></li>
+<li><span class="citation" data-cites="montgomery2018">Montgomery, Chester, and Kopp. 2018. <span>“Health Wearables: Ensuring Fairness, Preventing Discrimination, and Promoting Equity in an Emerging Internet-of-Things Environment.”</span> <em>Journal of Information Policy</em> 8: 34.</span></li>
+<li><span class="citation" data-cites="duhigg_how_2012">Duhigg, Charles. 2012. <span>“How <span>Companies</span> <span>Learn</span> <span>Your</span> <span>Secrets</span>.”</span> <em>The New York Times</em>, February.</span></li>
+</ul>
+<p>Wearables: https://www.jstor.org/stable/10.5325/jinfopoli.8.2018.0034 Mental Health &amp; data collection Famous Target case of inferred pregnancy</p>
+<h3 id="assignment-enable-google-fit-for-a-day-and-track-its-results.">Assignment: Enable Google Fit for a day and track its results.</h3>
+<p>[Or possibly a jigsaw of readings]</p>
+<h2 id="week-11---workers-rights-and-data-collection">Week 11 - Workers’ Rights and Data Collection</h2>
+<p>Required readings:</p>
+<ul>
+<li><span class="citation" data-cites="ajunwa_black_2020">Ajunwa, Ifeoma. 2020. <span>“The <span>‘Black Box’</span> at Work.”</span> <em>Big Data &amp; Society</em> 7 (2): 205395172096618.</span></li>
+<li><span class="citation" data-cites="sloane_now">Sloane, Mona. 2020. <span>“Now <span>Is</span> the <span>Time</span> to <span>Rethink</span> <span>AI</span>, <span>Automation</span> and <span>Employee</span> <span>Rights</span>.”</span> <em>BRINK – Conversations and Insights on Global Business</em>.</span></li>
+<li><span class="citation" data-cites="digital_gray">Society, Digital Future. n.d. <span>“A Walk with <span>Mary</span> <span>Gray</span> - <span>Long</span> Version Interview.”</span> Accessed November 25, 2021.</span></li>
+</ul>
+<p>Optional readings (required for graduate students):</p>
+<ul>
+<li><span class="citation" data-cites="winner1980artifacts">Winner, Langdon. 1980. <span>“Do Artifacts Have Politics?”</span> <em>Daedalus</em>, 121–36.</span></li>
+<li><span class="citation" data-cites="seabrook_age_2019">Seabrook, John. 2019. <span>“The <span>Age</span> of <span>Robot</span> <span>Farmers</span>.”</span> <em>The New Yorker</em>.</span></li>
+<li><span class="citation" data-cites="dilmegani_top_2020">Dilmegani, Cem. 2021. <span>“Top 12 <span>Use</span> <span>Cases</span> / <span>Applications</span> of <span>AI</span> in <span>Manufacturing</span>.”</span></span></li>
+</ul>
+<p>Automated hiring is racist, classist, sexist, etc.: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3670785 Alexandra Mateescu, Madeleine Claire Elish (2019): AI in Context, https://datasociety.net/library/ai-in-context/</p>
+<h2 id="week-12-final-project-presentations">Week 12: Final Project Presentations</h2>
+<h2 id="week-13-final-project-presentations">Week 13: Final Project Presentations</h2></section></article><footer>Coda goes here. Coda stuff here.<script src></script></footer></body></html>
