@@ -108,9 +108,6 @@ Required readings:
  - [[@ochigame_invention_2019]](https://via.hypothes.is/https://theintercept.com/2019/12/20/mit-ethical-ai-artificial-intelligence/)
  - [[@boyd2012]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/boyd2012.pdf)
  - [[@thomas_what_2020]](https://www.youtube.com/watch?v=F0cxzESR7ec)
- 
-Optional readings (required for graduate students): 
-
  - [[@sloane2019inequality]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/sloane2019inequality.pdf)
  - [[@sweeney_all]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/sweeney_all.pdf)
 
@@ -128,9 +125,6 @@ Required readings:
  - [[@mhlambi2020rationality]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/mhlambi2020rationality.pdf)
  - [[@imaginePhD]](https://www.imaginephd.com)
  - [[@piper_exclusive:_2019]](https://via.hypothes.is/https://www.vox.com/future-perfect/2019/4/4/18295933/google-cancels-ai-ethics-board)
- 
-Optional readings (required for graduate students): 
-
  - [[@franzke2021]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/franzke2021.pdf)
  - [[@packer_change_2013]](https://via.hypothes.is/https://www.newyorker.com/magazine/2013/05/27/change-the-world)
  - [[@montgomery_youth_2015]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/montgomery_youth_2015.pdf)
@@ -149,9 +143,6 @@ Required readings:
  - [@benjamin2019race] 
  - [@raji__2021]
  - [[@thomas_not_2020]](https://www.youtube.com/watch?v=pbnqvS2yjNg)
-
-Optional readings (required for graduate students): 
-
  - [@bowker2000sorting]
  - [@race_data_science]
  - [@browne_surveillance]
@@ -169,9 +160,6 @@ Required readings:
  - [@ajunwa_black_2020] 
  - [@sloane_now] 
  - [@digital_gray] 
- 
-Optional readings (required for graduate students): 
-
  - [@winner1980artifacts]
  - [@seabrook_age_2019]
  - [@dilmegani_top_2020]
@@ -188,9 +176,6 @@ Required readings:
 
  - [@hiphi_s3_2019]
  - [@hao_2019]
- 
-Optional readings (required for graduate students): 
- 
  - [@jorgensen_2021]
  - [[@brayne2020]](https://via.hypothes.is/static/brayne2020.pdf)
 
@@ -217,9 +202,6 @@ https://www.youtube.com/watch?v=oCUw0lOBVYo
 
  - Explore:  Desir, N., & Dawkins, K. A. (2020). The Columbia Language Justice Perspectives Project. MapHub. 
 https://maphub.net/KAnnD2020/CLJPP2020
-
-Optional readings (required for graduate students): 
-
  - Paullada, A. (2021, July 31). Machine Translation Shifts Power. The Gradient. 
 https://thegradient.pub/machine-translation-shifts-power/
 
@@ -238,9 +220,6 @@ Required readings:
 
  - [@bender2021dangers]
  - [Metz, C., & Wakabayashi, D. (2020, December 3). Google Researcher Says She Was Fired Over Paper Highlighting Bias in A.I. The New York Times.]( https://www.nytimes.com/2020/12/03/technology/google-researcher-timnit-gebru.html)
- 
-Optional readings (required for graduate students): 
- 
  - [Bird, S. (2020). Decolonising Speech and Language Technology. Proceedings of the 28th International Conference on Computational Linguistics, 3504–3519.](https://doi.org/10.18653/v1/2020.coling-main.313)
  
 ### Assignment 
@@ -255,9 +234,6 @@ Undergrads:
 Required readings: 
 
  - [@shahmirzadi_mapping_2018]
- 
-Optional readings (required for graduate students): 
-
  - [@deluca_selling_2015]
  
  
@@ -275,9 +251,6 @@ Required readings:
 
  - [@taylor2015]
  - [[@cohen_these]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/cohen_these.pdf)
- 
-Optional readings (required for graduate students): 
-
  - [@rooksby2016]
  
 ### Assignment: Mobile Data Analysis
@@ -310,9 +283,6 @@ Required readings:
  - [@wpf]
  - [@szalavitz_drug_2021]
  - [[@sweeney_data_1997]](https://thedatamap.org)
-
-Optional readings (required for graduate students): 
-
  - [@sweeney_matching_2013]
  - [@montgomery2018]
  - [@duhigg_how_2012]
