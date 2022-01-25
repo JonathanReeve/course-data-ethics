@@ -161,7 +161,7 @@ makePage title content = do
         h1_ [] $ toHtml title
         section_ [] $ toHtmlRaw content
       footer_ [] $ do
-        "Coda goes here. Coda stuff here."
+        ""
         script ""
 
 
