@@ -13,10 +13,11 @@ Welcome! Here you'll find the syllabus and readings for "People vs. Algorithms: 
   - STAT UN 3107 Sec 3/GR5298 Sec 5 Mentored Research: "People vs. Algorithms: Data Ethics in the 21st Century" 
   - Tuesdays, 10:10–12:00. Spring 2022. 
   - Classroom: Virtual; to be held over Zoom. 
-  - Instructors: Isabelle Zaugg, Jonathan Reeve, Tian Zheng
-  - Email addresses: iz2153@columbia.edu; jonathan.reeve@columbia.edu. But please direct all questions to our chatroom on Matrix, where appropriate. 
-  - Course website and course readings: https://data-ethics.jonreeve.com
-  - Course repository: https://github.com/JonathanReeve/course-data-ethics
+  - Instructors: Jonathan Reeve, Isabelle Zaugg, Tian Zheng
+  - Email addresses: jonathan.reeve@columbia.edu; iz2153@columbia.edu. But please direct all questions to our chatroom on Matrix, where appropriate. 
+  - Chatroom: [data-ethics-spr2022 on Matrix](https://app.element.io/#/room/%23data-ethics-spr2022:matrix.org)
+  - Website, including course readings: https://data-ethics.jonreeve.com
+  - Source code: https://github.com/JonathanReeve/course-data-ethics
 
 [Get Started!](#getting-started)
 
