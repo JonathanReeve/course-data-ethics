@@ -1,16 +1,16 @@
 # People vs. Algorithms: Data Ethics in the 21st Century
 
-This is the source code for the course "People vs. Algorithms: Data Ethics in the 21st Century," taught in the Department of Statistics at Columbia University, in Spring 2021. 
+This is the source code for the mentored research experience, "People vs. Algorithms: Data Ethics in the 21st Century," taught in the Department of Statistics at Columbia University, in Spring 2022. 
 
 **Please refer to the course website for more information: https://data-ethics.jonreeve.com**
 
 ## Repository Contents
 
- - content/index.md - The course syllabus, in Markdown
- - content/references.bib - The course bibliography, in Biblatex
+ - content/index.md - The course syllabus, in Markdown.
+ - content/references.bib - The course bibliography, in Biblatex.
  - content/chicago-author-date.csl - A custom CSL file for formatting bibliographic citations as they appear in a syllabus. Based on Chicago style.
- - dist/ - The output directory. This is where the HTML files end up. 
- - src/ - The Haskell source code for building the site
+ - dist/ - The output directory. This is where the HTML files end up.
+ - src/ - The Haskell source code for building the site.
  - default.nix - The Nix file which specifies the dependencies needed. Loads the cabal file. 
  - course-data-ethics.cabal - The Cabal file which actually specifies the Haskell dependencies. 
 
