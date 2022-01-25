@@ -160,9 +160,9 @@ makePage title content = do
       article_ $ do
         h1_ [] $ toHtml title
         section_ [] $ toHtmlRaw content
-      footer_ [] $ do
-        ""
-        script ""
+      -- footer_ [] $ do
+      --   ""
+      --   script ""
 
 
 script :: T.Text -> Html ()
