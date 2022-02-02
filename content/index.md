@@ -80,7 +80,6 @@ Note: this schedule is subject to some change, so please check the course websit
 To be read in class: 
 
  - [[@sloane2019inequality]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/sloane2019inequality.pdf)
- - [[@sweeney_all]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/sweeney_all.pdf)
 
 ## Week 0.5, 2-5 and 2-6: Python Bootcamp
 
@@ -93,6 +92,9 @@ Readings:
  - [[@boyd2012]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/boyd2012.pdf)
  - [[@thomas_what_2020]](https://www.youtube.com/watch?v=F0cxzESR7ec)
  
+
+Optional readings:
+ - [[@sweeney_all]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/sweeney_all.pdf)
 
 ### Lab TBA. 
 
