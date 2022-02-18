@@ -119,7 +119,7 @@ Optional readings:
 
 Readings: 
 
- - [[@benjamin2019race]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/benjamin2019race) 
+ - [[@benjamin2019race]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/benjamin2019race.pdf) 
  - [[@raji__2021]](https://twitter.com/rajiinio/status/1375957284061376516)
  - [[@thomas_not_2020]](https://www.youtube.com/watch?v=pbnqvS2yjNg)
 
