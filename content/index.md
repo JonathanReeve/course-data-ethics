@@ -119,8 +119,8 @@ Optional readings:
 
 Readings: 
 
- - [@benjamin2019race] 
- - [@raji__2021]
+ - [[@benjamin2019race]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/montgomery_youth_2015.pdf) 
+ - [@raji__2021] 
  - [[@thomas_not_2020]](https://www.youtube.com/watch?v=pbnqvS2yjNg)
 
 Optional readings: 
