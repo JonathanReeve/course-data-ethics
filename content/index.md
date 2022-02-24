@@ -136,7 +136,7 @@ Optional readings:
 
 Readings: 
 
- - [[@ajunwa_black_2020]](https://via.hypothes.is/https://journals.sagepub.com/doi/full/10.1177/2053951720938093)
+ - [[@ajunwa_black_2020]](https://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/ajunwa_black_2020.pdf)
  - [[@sloane_now]](https://via.hypothes.is/https://www.brinknews.com/now-is-the-time-to-rethink-ai-automation-and-employee-rights/) 
  - [[@digital_gray]](https://www.youtube.com/watch?v=ZGun7-_t_ck)
  
