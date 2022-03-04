@@ -168,7 +168,7 @@ Optional readings:
 Readings: 
 
  - [[@zaugg2019]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/zaugg2019.pdf)
- - [@coffey_maori]
+ - [[@coffey_maori]](http://via.hypothes.is/https://www.wired.co.uk/article/maori-language-tech)
  - [[@desir2021]](https://www.youtube.com/watch?v=oCUw0lOBVYo)
  - [[@desir2020]](https://maphub.net/KAnnD2020/CLJPP2020)
 
