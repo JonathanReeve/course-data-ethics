@@ -153,7 +153,7 @@ Optional readings:
 Readings: 
 
  - [@hiphi_s3_2019](https://hiphination.org/season-3-episodes/s3-episode-1-the-precrime-unit/)
- - [@hao_2019](https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/)
+ - [@hao_2019](https://via.hypothes.is/https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/)
  
 Optional readings: 
  
