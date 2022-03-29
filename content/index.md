@@ -196,9 +196,9 @@ Optional readings:
 
 Readings: 
 
- - [@shahmirzadi_mapping_2018]
- - [@schor_new_2017]
- - [@schor_introduction_2017]
+ - [[@shahmirzadi_mapping_2018]](https://languagejustice.wordpress.com/2018/05/25/mapping-naming-and-language-justice-in-the-digital-sphere/)
+ - [[@schor_new_2017]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/schor_new_2017.pdf)
+ - [[@schor_introduction_2017]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/schor_introduction_2017.pdf)
  
 Optional readings: 
 
@@ -211,7 +211,7 @@ Optional readings:
 
 Readings: 
 
- - [@taylor2015]
+ - [[@taylor2015]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/taylor2015.pdf)
  - [[@cohen_these]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/cohen_these.pdf)
  
 Optional readings: 
@@ -224,8 +224,8 @@ Optional readings:
 
 Readings: 
 
- - [@ochigame2021]
- - [@noble2018algorithms]
+ - [[@ochigame2021]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/ochigame2021.pdf)
+ - [[@noble2018algorithms]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/noble2018algorithms.pdf)
  
 ### Lab TBA. 
 
@@ -233,9 +233,9 @@ Readings:
 
 Readings: 
 
- - [@wpf]
- - [@szalavitz_drug_2021]
- - [[@sweeney_data_1997]](https://thedatamap.org)
+ - [[@wpf]](http://via.hypothes.is/https://www.worldprivacyforum.org/2014/04/wpf-report-the-scoring-of-america-how-secret-consumer-scores-threaten-your-privacy-and-your-future/)
+ - [[@szalavitz_drug_2021]](http://via.hypothes.is/https://www.wired.com/story/opioid-drug-addiction-algorithm-chronic-pain/)
+ - [[@sweeney_data_1997]](http://via.hypothes.is/https://thedatamap.org)
 
 Optional readings: 
 
